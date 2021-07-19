@@ -13,7 +13,7 @@ Description : Transcriptomic analysis of 6 FFPE tumor samples vs 6 paired uEVs s
 
 - Annotated NetMHCpan results (neoantigens) from upregulated lncRNAs (highest expressed transcript per gene) for FFPE samples & uEVs samples : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/neoantigens_from_upregulated_lncRNAs_uEVs_FFPE.zip
 
-- Annotation of 293 common 311 up uEVs circRNAs & 26182 PNT2-PC3 cellLines circRNAs : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/293_common_311_up_uEVs_26182_PNT2_PC3_cellLines.gff
+- Annotation of 293 common circRNAs in the overlap between 311 up uEVs circRNAs & 26182 PNT2-PC3 cellLines circRNAs : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/293_common_311_up_uEVs_26182_PNT2_PC3_cellLines.gff
 
 
 
