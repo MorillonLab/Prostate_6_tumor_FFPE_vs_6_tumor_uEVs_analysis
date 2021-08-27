@@ -11,10 +11,12 @@ Description : Transcriptomic analysis of 6 FFPE tumor samples vs 6 paired uEVs s
 
 - Annotation of 26182 circRNAs from PNT2 & PC3 cell lines : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/circRNA_from_celllines_PNT2_PC3.zip
 
-- Annotated NetMHCpan results (neoantigens) from upregulated lncRNAs (highest expressed transcript per gene) for FFPE samples & uEVs samples : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/neoantigens_from_upregulated_lncRNAs_uEVs_FFPE.zip
+- Annotated NetMHCpan results (neoantigens) from upregulated lncRNAs (highest expressed transcript per gene) for FFPE samples & uEVs samples : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/neoantigens_from_upregulated_lncRNAs_uEVs_FFPE.zip (**Extended Data Table 8**)
 
 - Annotation of 293 common circRNAs in the overlap between 311 up uEVs circRNAs & 26182 circRNAs from PNT2-PC3 cell lines  : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/293_common_311_up_uEVs_26182_PNT2_PC3_cellLines.gff
 
 - Annotation of 279 common circRNAs in the overlap between 311 up uEVs circRNAs & 14085 circRNAs from PNT2-PC3 cell lines EVs  : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/279_common_311_up_uEVs_14085_PNT2_PC3_EVsFromcellLines.gff
 
+
+- 1248 expressed uEVs genes, specific to prostate : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/1248_expressed_genes_uEVs_specific_to_prostate.xlsx (**Extended Data Table 3**)
 
