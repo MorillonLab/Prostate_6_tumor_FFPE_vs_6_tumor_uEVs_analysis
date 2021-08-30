@@ -7,9 +7,9 @@ Description : Transcriptomic analysis of 6 FFPE tumor samples vs 6 paired uEVs s
 
 - Differential expression table from DESeq2 between 6 tumor FFPE & 6 paired tumor uEVs : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/DESeq_output_FFPE_T_vs_urines_T.zip (features with full 0 counts are filtered out)
 
-- Annotation of 14085 circRNAs from EVs of PNT2 & PC3 cell lines : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/circRNA_from_EVsCelllines_PNT2_PC3.zip
+- Annotation of 14085 circRNAs from EVs of LNCaP, DU145 & PC3 cell lines : 
 
-- Annotation of 26182 circRNAs from PNT2 & PC3 cell lines : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/circRNA_from_celllines_PNT2_PC3.zip
+- Annotation of 26182 circRNAs from LNCaP, DU145 & PC3 cell lines : 
 
 - Annotated NetMHCpan results (neoantigens) from upregulated lncRNAs (highest expressed transcript per gene) for FFPE samples & uEVs samples : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/neoantigens_from_upregulated_lncRNAs_uEVs_FFPE.zip (**used as Extended Data Table 8**)
 
