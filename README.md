@@ -20,8 +20,8 @@ Description : Transcriptomic analysis of 6 FFPE tumor samples vs 6 paired uEVs s
 
 - 1248 expressed uEVs genes, specific to prostate : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/1248_expressed_genes_uEVs_specific_to_prostate.xlsx (**used as Extended Data Table 3**)
 
-- ***your text* :
-https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/Extended%20Data%20table%201_samples-QC%20RNA-QC%20RNAseq.xlsx
+- Samples information and quality control of RNA and RNAseq :
+https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/Extended%20Data%20table%201_samples-QC%20RNA-QC%20RNAseq.xlsx (**used as Extended Data Table 1**)
 
 
 
