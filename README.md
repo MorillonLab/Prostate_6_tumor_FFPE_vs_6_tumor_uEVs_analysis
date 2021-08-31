@@ -25,3 +25,6 @@ https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/bl
 
 - 4925 RNAs up in uEVs and 8336 RNAs up in Tumors (padj<=0.05; FC>=1.5): https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/Extended%20Table%204_13261%20sig_diff_FFPE_T_vs_urines_T.xlsx (**used as Extended Data Table 4**)
 
+- Read counts percentage in genonic features
+https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/Extended%20Table%205_%20exons-introns_5-3prime_promoter.xlsx (**used as Extended Data Table 5**)
+
