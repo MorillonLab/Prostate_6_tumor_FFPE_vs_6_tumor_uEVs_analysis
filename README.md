@@ -31,3 +31,6 @@ https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/bl
 - Cytoplasmic versus Nuclear RNAs (DEses2; padj<=0.05; 0.666<=FC>=1.5) :
 https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/Extended%20Table%206_Sig_diff_cyto%20vs%20nucl.xlsx (**used as Extended Data Table 6**)
 
+- intersection between different annotations of circRNAs (there are 8 tables, and the annotations are in gff3 format ; the 9th column, give useful informations about the circRNA) :
+https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/Extended%20Data%20Table%207.xlsx (**used as Extended Data Table 7**)
+
