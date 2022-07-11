@@ -14,6 +14,8 @@ link to have access to the processed data of the paper : https://filesender.rena
 
 - Build metagenes from bigwig files : https://github.com/mgabriel01/meta_features
 
+- Compute read counts distribution per genomic features : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/getReadsPerFeatureDistrib.sh (this script works with )
+
 
 ## Contacts 
 
