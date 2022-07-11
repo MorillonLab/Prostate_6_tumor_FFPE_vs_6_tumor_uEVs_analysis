@@ -19,6 +19,7 @@ link to have access to the processed data of the paper : https://filesender.rena
 
 marc.gabriel@curie.fr (bioinfo)
 
+anna.almeida@curie.fr
+
 antonin.morillon@curie.fr
 
-anna.almeida@curie.fr
