@@ -14,17 +14,11 @@ export getMergedExonsPerGenes="/home/marcgabriel/Desktop/scripts/getMergedExonsP
 
 export getTranscriptByExonsByStrand="/home/marcgabriel/Desktop/scripts/getTranscriptByExonsByStrand.sh"
 
-export getClassifiedReads="/home/marcgabriel/Desktop/scripts/getClassifiedReads2.R"
-
-export getClassifiedReadsAllConds="/home/marcgabriel/Desktop/scripts/getClassifiedReadsAllConds.R"
-
 export genomic_distrib_stats="/home/marcgabriel/Desktop/scripts/genomic_distrib_stats_metagenome.R"
 
 export bedtools="bedtools"
 
 export genome_index="/home/marcgabriel/Documents/gencode32/GRCh38.primary_assembly_genome_official_chromosomes.fa.fai"
-
-export bedops="/home/marcgabriel/Downloads/bedops-2.4.30/bin/bedops"
 
 export samtools="samtools"
 
