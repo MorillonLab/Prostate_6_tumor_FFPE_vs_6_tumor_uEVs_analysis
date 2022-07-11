@@ -1,9 +1,8 @@
 #!/bin/bash
 
-#tips : "bedtool coverage -counts " is faster than bedtools intersect !, don't use this last with reads
-#ref_annotation="/home/marcgabriel/Documents/gencode27/gencode.v27.annotation_sorted_only_official_chr.gff3"
-#/home/marcgabriel/Documents/gencode32/gencode.v32.annotation_sorted_official_chromosomes.gff3
-#export annotation="/home/marcgabriel/Documents/gencode26/gencode.v26.annotation_sorted.gff3"
+
+##### input variables #######################
+
 export annotation="/home/marcgabriel/Documents/gencode32/gencode.v32.annotation_sorted_official_chromosomes.gff3"
 
 export getIntronsByTranscripts="/home/marcgabriel/Desktop/scripts/getIntronsByTranscripts.R"
@@ -39,29 +38,12 @@ export lib_type="fr-firststrand"
 export paired_end="yes"
 #export paired_end="no"
 
-#config_file="/home/marcgabriel/Documents/Julien_Jarroux/config_file.txt"
-#config_file="/media/marcgabriel/saylar3/read_distrib_across_ILBC_TNBC_FFPE_EV/design.tsv"
-#config_file="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/counts_distrib_per_features/design.tsv"
-#config_file="/media/marcgabriel/saylar5/Dominika_DIS3_analysis_10_12_2020/counts_distrib_across_gennnnnomic_features/bam_files_design.tsv"
-#config_file="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/gene_type_distrib_design.tsv"
-#config_file="/media/marcgabriel/saylar5/Dominika_riboseq_4samples/counts_distrib_per_feature/counts_per_feature_design.tsv"
-
 config_file="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/exon_intron_design_otherProstateCelllines.tsv"
-
-#config_file="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/FFPE_uEVs_frozen_prostate_samples.tsv"
-
-#output directory
-#output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/counts_distrib_per_features/"
-#output_dir="/media/marcgabriel/saylar3/read_distrib_across_ILBC_TNBC_FFPE_EV/distrib_results2/"
-#output_dir="/media/marcgabriel/saylar5/Dominika_DIS3_analysis_10_12_2020/counts_distrib_across_gennnnnomic_features"
-#output_dir="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/counts_distrib_across_genomic"
-#output_dir="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/counts_distrib_across_gennnnnomic_features/"
-#output_dir="/media/marcgabriel/saylar5/Dominika_riboseq_4samples/counts_distrib_per_feature/"
 
 output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/genes_expression2/counts_distrib_per_feature/"
 
-#output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/genes_expression2/counts_distrib_per_feature_FFPE_uEVs_frozen_prostate_samples/"
 
+################################################
 
 #set -x
 
