@@ -10,10 +10,7 @@ input_peptides="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts
 
 all_HLA="/home/marcgabriel/Downloads/netMHCpan/netMHCpan-4.1/Linux_x86_64/data/allelenames"
 
-#HLA_from_RNAseq="/media/marcgabriel/saylar5/seq2HLA_results_FFPE_UrinaryEVs/all_significant_expressed_ClassI_HLA_FFPE.tsv /media/marcgabriel/saylar5/seq2HLA_results_FFPE_UrinaryEVs/all_significant_expressed_ClassI_HLA_EVs.tsv"
-
-#output_dir="/media/marcgabriel/saylar5/neoantigens_results_FFPE_UrinaryEVs/"
-#output_dir="/media/marcgabriel/saylar5/neoantigens_test/output_results/"
+HLA_from_RNAseq="/media/marcgabriel/saylar5/seq2HLA_results_FFPE_UrinaryEVs/all_significant_expressed_ClassI_HLA_FFPE.tsv /media/marcgabriel/saylar5/seq2HLA_results_FFPE_UrinaryEVs/all_significant_expressed_ClassI_HLA_EVs.tsv"
 
 #output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/neoantigens_three_frames_uEVs2/"
 
