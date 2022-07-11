@@ -12,3 +12,5 @@ link to have access to the processed data of the paper : https://filesender.rena
 
 - Discovery of circRNAs + quantification + junction sequence (using CIRIquant) : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/getCircRNAs.sh
 
+- Compute metagenes : https://github.com/mgabriel01/meta_features
+
