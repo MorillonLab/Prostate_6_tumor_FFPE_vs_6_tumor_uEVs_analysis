@@ -1,5 +1,7 @@
 #!/bin/bash
 
+##### input variables ###############
+
 netMHCpan="/home/marcgabriel/Downloads/netMHCpan/netMHCpan-4.1/netMHCpan"
 
 
@@ -19,6 +21,8 @@ output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gen
 select_human_antigen="yes"
 
 process_number_limit=30
+
+#########################################
 
 #create output dir
 if [ ! -d $output_dir ];then mkdir -p $output_dir;fi
