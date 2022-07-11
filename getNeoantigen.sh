@@ -1,68 +1,23 @@
 #!/bin/bash
 
-#rmk on the website :Your job 601D9FC5000039BB56455ADF have been killed
-#This may be due to excessive time consumption of 36002 seconds. The time limit for this service is 36000 seconds.
-
 netMHCpan="/home/marcgabriel/Downloads/netMHCpan/netMHCpan-4.1/netMHCpan"
 
-#output_dir="/home/marcgabriel/Downloads/netMHCpan/netMHCpan-4.1/output_dir/"
-
-#input_peptides="/home/marcgabriel/Downloads/netMHCpan/netMHCpan-4.1/test/B0702.fsa"
-#input_peptides="/home/marcgabriel/Downloads/netMHCpan/netMHCpan-4.1/peptides_test.fa"
-
-#input_peptides="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/Expressed_Transcripts_length/peptides_from_up_FFPE.fa"
-#input_peptides="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/Expressed_Transcripts_length/peptides_from_up_urinaryEVs.fa"
-#input_peptides="/media/marcgabriel/saylar5/neoantigens_test/supplementary_table_7_refined.fa"
-
-#input_peptides="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/Up_transcripts_uEVs_NotIn_PCG_pseudogenes_highestExpressedTranscript_peptides_refined.fa"
-
-#input_peptides="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/Up_transcripts_FFPE_NotIn_PCG_pseudogenes_highestExpressedTranscript_peptides_refined.fa"
 
 #input_peptides="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/Up_transcripts_uEVs_NotIn_PCG_pseudogenes_highestExpressedTranscript_peptides_three_frames_peptides_refined.fa"
 
-#input_peptides="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/Up_transcripts_FFPE_NotIn_PCG_pseudogenes_highestExpressedTranscript_peptides_three_frames_peptides_refined.fa"
-
-#input_peptides="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_riboseq_DIS3_diagenode_protocol_16_12_2021/NETMHCpan_analysis/peptides_frame_1_from_1519_candidates_refined_for_netmhcpan.fa"
-#input_peptides="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_riboseq_DIS3_diagenode_merged_runs_15_11_2021_and_16_12_2021/Dominika_ribotricer_analysis_gencode_scallop_eRNA_selected_length_from_unique_25_34nt/ORF_diff_final_in_DIS3_peptides_refined.fa"
-
-
-#finally, we never used this result
-#input_peptides="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_riboseq_DIS3_diagenode_merged_runs_15_11_2021_and_16_12_2021/Dominika_ribotricer_analysis_MM_enhancers/MM_enhancers_peptides_analysis/MM_enhancers_peptides_refined.fa"
-
-input_peptides="/home/marcgabriel/Downloads/ORF_diff_translated_DIS3_A_peptides_refined.fa"
-
+input_peptides="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/Up_transcripts_FFPE_NotIn_PCG_pseudogenes_highestExpressedTranscript_peptides_three_frames_peptides_refined.fa"
 
 
 all_HLA="/home/marcgabriel/Downloads/netMHCpan/netMHCpan-4.1/Linux_x86_64/data/allelenames"
 
 #HLA_from_RNAseq="/media/marcgabriel/saylar5/seq2HLA_results_FFPE_UrinaryEVs/all_significant_expressed_ClassI_HLA_FFPE.tsv /media/marcgabriel/saylar5/seq2HLA_results_FFPE_UrinaryEVs/all_significant_expressed_ClassI_HLA_EVs.tsv"
-#HLA_from_RNAseq="/media/marcgabriel/saylar5/neoantigens_test/CD8_epitopes.tsv"
-
-HLA_from_RNAseq="/home/marcgabriel/Downloads/HLA_data/combined_HLA_types.tsv"
 
 #output_dir="/media/marcgabriel/saylar5/neoantigens_results_FFPE_UrinaryEVs/"
 #output_dir="/media/marcgabriel/saylar5/neoantigens_test/output_results/"
 
-#output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/neoantigens_1st_frame_uEVs/"
-
-#output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/neoantigens_1st_frame_FFPE/"
-
 #output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/neoantigens_three_frames_uEVs2/"
 
-#output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/neoantigens_three_frames_FFPE/"
-
-#output_dir="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_riboseq_DIS3_diagenode_protocol_16_12_2021/NETMHCpan_analysis/NETMHCpan_results/"
-
-#output_dir="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_riboseq_DIS3_diagenode_merged_runs_15_11_2021_and_16_12_2021/Dominika_ribotricer_analysis_gencode_scallop_eRNA_selected_length_from_unique_25_34nt/NETMHCpan_classI_analysis/"
-
-#output_dir="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/NETMHCpan_classI_analysis/"
-
-#output_dir="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/NETMHCpan_classI_analysis_MM_enhancers/"
-
-#this one gives tmpdir too long according to the tool
-#output_dir="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_riboseq_DIS3_diagenode_merged_runs_15_11_2021_and_16_12_2021/Dominika_ribotricer_analysis_gencode_scallop_eRNA_selected_length_from_unique_25_34nt_extendedStartCodon/NETMHCpan_classI_analysis/"
-
-output_dir="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_extendedStartCodon_NETMHCpan_classI_analysis/"
+output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/kallisto_counts_gencode32_transcripts/intersection_of_db/neoantigens_three_frames_FFPE/"
 
 select_human_antigen="yes"
 
