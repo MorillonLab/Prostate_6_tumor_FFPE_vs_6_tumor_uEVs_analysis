@@ -10,3 +10,5 @@ link to have access to the processed data of the paper : https://filesender.rena
 
 - Research of neoantigen ability from a supplied list of peptides (using netMHCpan-4.1) : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/getNeoantigen.sh
 
+- Discovery of circRNAs + quantification + junction sequence (using CIRIquant) : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/getCircRNAs.sh
+
