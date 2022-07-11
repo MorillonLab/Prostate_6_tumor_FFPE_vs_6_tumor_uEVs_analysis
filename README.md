@@ -6,5 +6,5 @@ link to have access to the processed data of the paper : https://filesender.rena
 
 - Research of HLA alleles from RNAseq data (using seq2HLA) : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/getHLAAllotype2.sh
 
-- Research of neoantigens ability from supllied peptides : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/getNeoantigen.sh
+- Research of neoantigen ability from a supplied list of peptides (using netMHCpan-4.1) : https://github.com/MorillonLab/Prostate_6_tumor_FFPE_vs_6_tumor_uEVs_analysis/blob/main/getNeoantigen.sh
 
