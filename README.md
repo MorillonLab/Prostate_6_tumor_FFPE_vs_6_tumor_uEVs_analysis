@@ -18,7 +18,5 @@ link to have access to the processed data of the paper : https://filesender.rena
 ## Contacts 
 
 marc.gabriel@curie.fr
-
 antonin.morillon@curie.fr
-
 anna.almeida@curie.fr
