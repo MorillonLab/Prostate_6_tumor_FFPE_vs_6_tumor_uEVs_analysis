@@ -1,57 +1,19 @@
 #!/bin/bash
 
-#reads_path="/media/marcgabriel/saylar4/urines_files/ /media/marcgabriel/saylar4/urines_ffpe_files/fastq_files/"
-#reads_path="/media/marcgabriel/9d38aaa1-ce5d-4422-950f-0f083b797d13/prostate_24_hg38/"
-#reads_path="/media/marcgabriel/saylar5/tissues_to_use_as_control_for_urines/"
-#reads_path="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/"
-#reads_path="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/"
-#reads_path="/media/marcgabriel/saylar5/LNCaP_data/"
-#reads_path="/media/marcgabriel/saylar5/Dominika_DIS3_analysis_10_12_2020/"
-#reads_path="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/urinary_EVs_clean_files_11_06_2021/urinary_EVs_fastq_files/"
-#reads_path="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/urinary_EVs_fastq_files/"
-#reads_path="/media/marcgabriel/saylar4/Nouritza_human_TNBClncRNA/ /media/marcgabriel/saylar8/plasticity_analysis/fastq_files/"
-#reads_path="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/XRN1_AID_fractionation_GEO_submission/"
-
-#reads_path="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/urinary_EVs_fastq_files/"
-
-reads_path="/media/marcgabriel/saylar11/Anna_bloodEVs_analysis/fastq_files/"
+reads_path="/media/marcgabriel/saylar4/urines_files/ /media/marcgabriel/saylar4/urines_ffpe_files/fastq_files/"
 
 config_file="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/circant_results/circant_config.yml"
-#config_file="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_XRN1_circRNA_analysis/circant_config.yml"
 
-#output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/circant_results/circant_results_out/"
-#output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/ciriquant_results_in_prostate/"
-#output_dir_list="/media/marcgabriel/saylar5/tissues_to_use_as_control_for_urines_circRNAs_results/normal_kidney,/media/marcgabriel/saylar5/tissues_to_use_as_control_for_urines_circRNAs_results/normal_prostate,/media/marcgabriel/saylar5/tissues_to_use_as_control_for_urines_circRNAs_results/normal_urinary_bladder"
-#output_dir_list="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/circRNA_analysis_cell_lines/"
-#output_dir_list="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/circRNA_analysis_cell_lines_PNT2_PC3/"
-#output_dir_list="/media/marcgabriel/saylar7/Rocco_LNcap_ciriquant_results/"
-#output_dir_list="/media/marcgabriel/saylar8/Dominika_DIS3_circRNA_analysis/"
-#output_dir_list="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/urinary_EVs_clean_files_11_06_2021/kallisto_counts_6normaluEVs_6tumoruEVssamples/circRNA_counts/"
-#output_dir_list="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/circRNA_6normal_uEVs/"
-#output_dir_list="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/circRNA_analysis_cell_lines_PNT2_PC3/"
-#output_dir_list="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/circRNA_analysis_cell_lines_PNT2_PC3/"
-#output_dir_list="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Nouritza_TNBC_circRNA_analysis/"
+output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/ciriquant_results/circant_results_out/"
 
-#output_dir_list="/media/marcgabriel/saylar9/Nouritza_TNBC_circRNA_analysis/"
-
-#output_dir_list="/media/marcgabriel/saylar9/circRNAs_20_uEV_samples_JEV_revision/"
-
-output_dir_list="/media/marcgabriel/saylar11/Anna_bloodEVs_analysis/circRNAs_analysis/"
-
-#output_dir_list="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_XRN1_circRNA_analysis/"
 
 my_gff="/home/marcgabriel/Documents/gencode32/gencode.v32.annotation_sorted.gff3"
-#my_gff="/home/marcgabriel/Documents/gencode26/gencode.v26.annotation_sorted.gff3"
 
 CIRIquant="CIRIquant"
 
 bedtools="bedtools"
 
 gffread="/home/marcgabriel/Downloads/cufflinks-2.2.1.Linux_x86_64/gffread"
-
-#known_circ_bed="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/common_circRNAs_with_public_data_hundred_perct/14_common_171_paper_circRNAs_cell_proliferation_and_311_up_uEVs.bed"
-
-#just_counting="no"
 
 #1 : fr-secondstrand ; 2 : fr-firststrand ; 0 : unstranded
 #lib_type=2
@@ -62,25 +24,7 @@ process_number_limit=4
 
 thread_num=4
 
-#design_list="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/circant_results/design_FFPE_urines.tsv"
-#design="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/ciriquant_results_in_prostate/ciri2_prostate_design.tsv"
-#design="/media/marcgabriel/saylar5/tissues_to_use_as_control_for_urines/tissues_design.tsv"
-#design_list="/media/marcgabriel/saylar5/tissues_to_use_as_control_for_urines/tissues_kidney_design.tsv,/media/marcgabriel/saylar5/tissues_to_use_as_control_for_urines/tissues_normal_prostate_design.tsv,/media/marcgabriel/saylar5/tissues_to_use_as_control_for_urines/tissues_urinary_bladder_design.tsv"
-#design_list="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/Ciriquant_design.tsv"
-#design_list="/media/marcgabriel/saylar7/Anna_EVs_prostate_cell_lines_05_02_2021/Ciriquant_design_PNT2_PC3.tsv"
-#design_list="/media/marcgabriel/saylar7/Rocco_LNcap_ciriquant_results/Rocco_LNcap_Ciriquant_design.tsv"
-
-#design_list="/media/marcgabriel/saylar8/Dominika_DIS3_circRNA_analysis/Dominika_DIs3_ciriquant_design.tsv"
-
-#design_list="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/urinary_EVs_clean_files_11_06_2021/kallisto_counts_6normaluEVs_6tumoruEVssamples/design_6NormaluEVs_6tumoruEVs.tsv"
-
-#design_list="/media/marcgabriel/saylar4/Nouritza_human_TNBClncRNA/kallisto_design_batch1And2_22_01_2021.tsv"
-
-#design_list="/media/marcgabriel/dd42f9e0-f4a1-4604-a0dc-c8768c723b49/Dominika_XRN1_circRNA_analysis/circant_design_file.tsv"
-
-#design_list="/media/marcgabriel/saylar9/circRNAs_20_uEV_samples_JEV_revision/circRNA_design_20_uEV_samples.tsv"
-
-design_list="/media/marcgabriel/saylar11/Anna_bloodEVs_analysis/ciriquant_design.tsv"
+design_list="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/circant_results/design_FFPE_urines.tsv"
 
 
 #separator="_trimmed"
@@ -92,8 +36,6 @@ split_design=($(echo -e $design_list| sed 's/,/\n/g'))
 
 
 output_dir_split=($(echo -e $output_dir_list| sed 's/,/\n/g'))
-
-
 
 getConsensus_seq="/home/marcgabriel/Desktop/scripts/getConsensus.R"
 
