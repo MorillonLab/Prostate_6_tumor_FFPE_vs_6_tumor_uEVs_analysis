@@ -14,3 +14,9 @@ link to have access to the processed data of the paper : https://filesender.rena
 
 - Build metagenes from bigwig files : https://github.com/mgabriel01/meta_features
 
+
+## Contacts 
+
+marc.gabriel@curie.fr
+antonin.morillon@curie.fr
+anna.almeida@curie.fr
