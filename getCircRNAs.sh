@@ -1,5 +1,9 @@
 #!/bin/bash
 
+############# input variables ############
+
+getConsensus_seq="/home/marcgabriel/Desktop/scripts/getConsensus.R"
+
 reads_path="/media/marcgabriel/saylar4/urines_files/ /media/marcgabriel/saylar4/urines_ffpe_files/fastq_files/"
 
 config_file="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/circant_results/circant_config.yml"
@@ -31,13 +35,14 @@ design_list="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/circant_results/de
 #separator="."
 separator="_"
 
+####################################
+
 
 split_design=($(echo -e $design_list| sed 's/,/\n/g'))
 
 
 output_dir_split=($(echo -e $output_dir_list| sed 's/,/\n/g'))
 
-getConsensus_seq="/home/marcgabriel/Desktop/scripts/getConsensus.R"
 
 #set -x
 for one_design in $(seq 0 $((${#split_design[*]}-1))) ;do
