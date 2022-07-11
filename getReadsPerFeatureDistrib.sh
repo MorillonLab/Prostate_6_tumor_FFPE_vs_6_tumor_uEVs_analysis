@@ -38,6 +38,21 @@ export lib_type="fr-firststrand"
 export paired_end="yes"
 #export paired_end="no"
 
+
+#the config file should be like this : bam_file<tab>condition
+
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T35Aligned.sortedByCoord.out.bam	DU_cellLines
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T36Aligned.sortedByCoord.out.bam	DU_cellLines
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T37Aligned.sortedByCoord.out.bam	DU_cellLines
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T26Aligned.sortedByCoord.out.bam	DU_EVs
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T27Aligned.sortedByCoord.out.bam	DU_EVs
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T28Aligned.sortedByCoord.out.bam	DU_EVs
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T38Aligned.sortedByCoord.out.bam	LNCaP_cellLines
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T39Aligned.sortedByCoord.out.bam	LNCaP_cellLines
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T40Aligned.sortedByCoord.out.bam	LNCaP_cellLines
+#/media/marcgabriel/saylar8/Anna_prostate_celllines_EVs_bam_files/D623T29Aligned.sortedByCoord.out.bam	LNCaP_EVs
+
+
 config_file="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/exon_intron_design_otherProstateCelllines.tsv"
 
 output_dir="/media/marcgabriel/saylar2/FFPE_vs_Urines_DESEq2/genes_expression2/counts_distrib_per_feature/"
