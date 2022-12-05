@@ -1,7 +1,7 @@
 # Prostate_6_tumor_FFPE_vs_6_paired_tumor_uEVs_analysis
 Description : Transcriptomic analysis of 6 FFPE tumor samples vs 6 paired uEVs samples (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9081490/)
 
-link to have access to the processed data of the paper : https://filesender.renater.fr/?s=download&token=0886a70d-f868-4463-9475-9377b5a6a696
+link to have access to the processed data of the paper : http://xfer.curie.fr/get/8FGXOybguF9/extended_tables_and_intermediate_files_FFPE_vs_uEVs.zip
 
 
 ## Scripts
